@@ -31,7 +31,7 @@ def main():
         point2 = (x2, y2, z2)
         
         result = distance(point1, point2)
-        #result
+        #result 
         print(f"\nDistance between the two points: {result:.4f}")
     except ValueError:
         print("Error: Invalid input. Please enter numeric values.")

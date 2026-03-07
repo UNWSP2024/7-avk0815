@@ -26,12 +26,12 @@ def main():
         x2 = float(input("x2: "))
         y2 = float(input("y2: "))
         z2 = float(input("z2: "))
-        # Store coordinates as tuples
+     
         point1 = (x1, y1, z1)
         point2 = (x2, y2, z2)
-        # Call distance function
+        
         result = distance(point1, point2)
-        # Display result
+        #result
         print(f"\nDistance between the two points: {result:.4f}")
     except ValueError:
         print("Error: Invalid input. Please enter numeric values.")
